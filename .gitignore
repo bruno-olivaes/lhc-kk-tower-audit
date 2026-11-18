@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.toc

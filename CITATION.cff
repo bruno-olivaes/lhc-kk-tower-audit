@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or audit manuscript, please cite it as below."
+title: "Over-Parametrized Towers vs. The Null Standard Model: A Bayesian and Multiplicity Audit of LHC Kaluza-Klein Resonance Claims"
+type: software
+authors:
+  - given-names: "Bruno Luçardo"
+    family-names: "Olivaes"
+    orcid: "https://orcid.org/0009-0003-5351-446X"
+repository-code: "https://github.com/bruno-olivaes/lhc-kk-tower-audit"
+url: "https://bruno-olivaes.github.io"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-18"
+keywords:
+  - kaluza-klein
+  - bayesian information criterion
+  - look-elsewhere effect
+  - cms four-jet excess
+  - atlas paired dijet
+  - discrete scale invariance

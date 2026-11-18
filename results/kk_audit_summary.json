@@ -1,0 +1,259 @@
+{
+  "spectral_hierarchy": {
+    "j1_zeros": [
+      3.8317059702075125,
+      7.015586669815619,
+      10.173468135062722,
+      13.323691936314223
+    ],
+    "claimed_graviton_GeV": [
+      380.0,
+      700.0,
+      1000.0,
+      1322.0
+    ],
+    "bessel_j1_predicted_GeV": [
+      380.0,
+      695.75,
+      1008.93,
+      1321.34
+    ],
+    "graviton_rel_error_pct": [
+      0.0,
+      0.61,
+      -0.885,
+      0.05
+    ],
+    "gluon_ratio_observed": 2.3889,
+    "gluon_ratio_rs_predicted": 2.2735,
+    "naive_rs_graviton_to_gluon_ratio": 1.564,
+    "observed_graviton_to_gluon_ratio": 0.1056,
+    "hierarchy_discrepancy_factor": 14.82
+  },
+  "look_elsewhere": {
+    "cms_table2_audit": [
+      {
+        "mY_TeV": 8.6,
+        "mX_TeV": 2.15,
+        "alpha": 0.25,
+        "width_pct": 1.5,
+        "sigma_BA_pb": 1.68e-05,
+        "events": 2.3,
+        "z_local": 3.9,
+        "z_global": 1.6,
+        "p_local": 4.8096344017602614e-05,
+        "p_global": 0.054799291699557974,
+        "n_trials_ratio": 1139.4,
+        "n_trials_poisson": 1171.8
+      },
+      {
+        "mY_TeV": 8.6,
+        "mX_TeV": 2.15,
+        "alpha": 0.25,
+        "width_pct": 5.0,
+        "sigma_BA_pb": 2.04e-05,
+        "events": 2.8,
+        "z_local": 3.8,
+        "z_global": 1.5,
+        "p_local": 7.234804392511998e-05,
+        "p_global": 0.06680720126885807,
+        "n_trials_ratio": 923.4,
+        "n_trials_poisson": 955.7
+      },
+      {
+        "mY_TeV": 8.6,
+        "mX_TeV": 2.15,
+        "alpha": 0.25,
+        "width_pct": 10.0,
+        "sigma_BA_pb": 2.22e-05,
+        "events": 3.1,
+        "z_local": 3.6,
+        "z_global": 1.4,
+        "p_local": 0.00015910859015753364,
+        "p_global": 0.08075665923377107,
+        "n_trials_ratio": 507.6,
+        "n_trials_poisson": 529.2
+      },
+      {
+        "mY_TeV": 3.6,
+        "mX_TeV": 1.0,
+        "alpha": 0.29,
+        "width_pct": 1.5,
+        "sigma_BA_pb": 0.00083,
+        "events": 114.0,
+        "z_local": 3.0,
+        "z_global": 0.5,
+        "p_local": 0.0013498980316300933,
+        "p_global": 0.3085375387259869,
+        "n_trials_ratio": 228.6,
+        "n_trials_poisson": 273.3
+      },
+      {
+        "mY_TeV": 3.6,
+        "mX_TeV": 1.0,
+        "alpha": 0.29,
+        "width_pct": 5.0,
+        "sigma_BA_pb": 0.00118,
+        "events": 162.0,
+        "z_local": 3.6,
+        "z_global": 1.6,
+        "p_local": 0.00015910859015753364,
+        "p_global": 0.054799291699557974,
+        "n_trials_ratio": 344.4,
+        "n_trials_poisson": 354.2
+      },
+      {
+        "mY_TeV": 3.6,
+        "mX_TeV": 1.0,
+        "alpha": 0.29,
+        "width_pct": 10.0,
+        "sigma_BA_pb": 0.00153,
+        "events": 210.0,
+        "z_local": 3.9,
+        "z_global": 2.2,
+        "p_local": 4.8096344017602614e-05,
+        "p_global": 0.013903447513498595,
+        "n_trials_ratio": 289.1,
+        "n_trials_poisson": 291.1
+      }
+    ],
+    "peak_8600_trials_factor": 1139.4,
+    "peak_3600_trials_factor": 289.1,
+    "peak_8600_width_adjusted_global_z": 1.013,
+    "peak_3600_width_adjusted_global_z": 1.738,
+    "naive_independent_p_product": 0.0007618990759217035
+  },
+  "cross_experiment_replication": {
+    "lumi_cms_run2_fb": 138.0,
+    "lumi_atlas_run2_fb": 140.0,
+    "lumi_cms_run3_partial_fb": 90.0,
+    "lumi_followup_fb": 230.0,
+    "lumi_total_fb": 368.0,
+    "cms_run2_fraction": 0.375,
+    "binomial_all_in_cms2_if_2_events": 0.1406,
+    "binomial_all_in_cms2_if_3_events": 0.0527,
+    "scenarios_8600GeV": [
+      {
+        "width_pct": 1.5,
+        "cms_run2_best_fit_events": 2.3,
+        "expected_followup_events_230fb": 3.833,
+        "p_zero_followup": 0.02164,
+        "cms_sigma_BA_pb": 1.68e-05,
+        "lumi_diluted_combined_sigma_BA_pb": 6.299999999999999e-06
+      },
+      {
+        "width_pct": 5.0,
+        "cms_run2_best_fit_events": 2.8,
+        "expected_followup_events_230fb": 4.667,
+        "p_zero_followup": 0.0094,
+        "cms_sigma_BA_pb": 2.04e-05,
+        "lumi_diluted_combined_sigma_BA_pb": 7.65e-06
+      },
+      {
+        "width_pct": 10.0,
+        "cms_run2_best_fit_events": 3.1,
+        "expected_followup_events_230fb": 5.167,
+        "p_zero_followup": 0.0057,
+        "cms_sigma_BA_pb": 2.22e-05,
+        "lumi_diluted_combined_sigma_BA_pb": 8.325e-06
+      }
+    ]
+  },
+  "bic_and_five_gates": {
+    "n_bins": 390,
+    "ln_n": 5.9661,
+    "two_delta_lnL_local": 30.42,
+    "two_delta_lnL_global": 7.4,
+    "delta_bic_local_k9": -23.28,
+    "delta_bic_local_k11": -35.21,
+    "delta_bic_global_k9": -46.3,
+    "delta_bic_global_k11": -58.23,
+    "bic_local_sweep": {
+      "k_grid": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "by_n_bins": {
+        "100": [
+          21.21,
+          16.6,
+          12.0,
+          7.39,
+          2.79,
+          -1.82,
+          -6.42,
+          -11.03,
+          -15.63,
+          -20.24
+        ],
+        "200": [
+          19.82,
+          14.53,
+          9.23,
+          3.93,
+          -1.37,
+          -6.67,
+          -11.97,
+          -17.26,
+          -22.56,
+          -27.86
+        ],
+        "390": [
+          18.49,
+          12.52,
+          6.56,
+          0.59,
+          -5.38,
+          -11.34,
+          -17.31,
+          -23.28,
+          -29.24,
+          -35.21
+        ],
+        "600": [
+          17.63,
+          11.23,
+          4.83,
+          -1.56,
+          -7.96,
+          -14.36,
+          -20.76,
+          -27.15,
+          -33.55,
+          -39.95
+        ]
+      }
+    },
+    "five_gates": {
+      "gate_1_resolvability": {
+        "pass": true,
+        "summary": "Jet quartet masses (3.6 TeV, 8.6 TeV; 1.0 TeV, 2.15 TeV) lie cleanly above jet-resolution thresholds."
+      },
+      "gate_2_amplitude_and_replication": {
+        "pass": false,
+        "summary": "Zero gold-plated 8.6 TeV events in 230 fb^-1 of ATLAS Run 2 + CMS Run 3 follow-up (P(0 | mu=3.833)=0.0216; combined rate diluted by 0.375x)."
+      },
+      "gate_3_parameter_precision_and_hierarchy": {
+        "pass": false,
+        "summary": "Single-throat RS graviton-to-gluon ratio fails by 14.82x (0.1056 obs vs 1.5640 pred), requiring two post-hoc branes, 5-10x top suppression, and independent alpha/width tuning."
+      },
+      "gate_4_multiplicity_lee": {
+        "pass": false,
+        "summary": "CMS Look-Elsewhere drops 8.6 TeV from 3.9s to 1.6s (p_global=0.0548, trials~1139) and 3.6 TeV from 3.9s to 2.2s (p_global=0.0139); width-selection drops 8.6 TeV further to 1.013s."
+      },
+      "gate_5_bayesian_bic": {
+        "pass": false,
+        "summary": "Delta-BIC_local = -23.28 (k=9, N=390) and Delta-BIC_global = -46.30; both severely violate the +10.0 threshold."
+      }
+    },
+    "all_gates_passed": false
+  }
+}
